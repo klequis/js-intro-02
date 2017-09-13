@@ -2,7 +2,10 @@
 
 A teacher-led visually oriented introduction to JavaScript targeted toward 11 to 14 year olds.
 
-** Status: evolving **
+**Status: evolving**
+
+*Where is Part I?*
+*Part I will be editor and project setup. It has not been written yet*
 
 ## Prerequisites
 You only need to know the very basics of the following
@@ -12,7 +15,6 @@ You only need to know the very basics of the following
 - Assignment
 - Functions
 - console.log()
-
 
 ## Project 1 - ````getElementById()````
 Learn to use ````getElementById()```` to color a ````<div>````

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thimble Project Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="https://thimble.mozilla.org/tutorial/tutorial.css">
+  </head>
+
+  <body>
+    <div class="tutorial">
+      <h1>Light On/Off</h1>
+      <p>
+        Make the lightbulb turn on and off by manipulating the image's source property.
+      </p>
+      <h3>Instructions - Brief</h3>
+      <ul>
+        <li>Add to the html page a button that says 'Toggle Light' and an image with lightbulb-off.svg</li>
+        <li>Create a main funciton that attaches an event to the Toggle Light button</li>
+        <li>Create a toggle light function that switches the 'on' image to the 'off' image</li>
+      </ul>
+
+      <h3>Instructions - Detail</h3>
+      <ol class="steps">
+        <li>
+          Inside of div 'wrapper' add a 'Toggle Light' button.
+        </li>
+        <li>
+          Below the button, add /images/lightbulb-off.svg to the page.
+        </li>
+        <li>
+          Create a function named <code class="language-js">main() that attaches an event listener to the button.</code>
+        </li>
+        <li>
+          Create a function named <code>toggleLight() that toggles between the 'on' and 'off' images.</code>
+        </li>
+      </ol>
+      <h3>Extra Credit</h3>
+      If your <code>toggleLight()</code> function depends on a path that will not work on a machine other than the one you are currently working on, then write a function that parses that string into something that will work on all machines.
+    </div>
+  </body>
+</html>

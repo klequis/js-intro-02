@@ -8,12 +8,13 @@
   <body>
     <div class="tutorial">
       <h1>JavaScript Stop Light - Coding Challenge</h1>
-      <p>
-        Create a working stop light by manipulating the red, green and yellow images included with this project.
-      </p>
-
-      <h3>Overview</h3>
-      This project has a /images folder which contains one 'on' and one 'off' image for each of the 3 stop light colors. The HTML page already contains 3 images. Manipulate the source property of the images to switch the state of the 3 light colors.
+      <h3>Goal</h3>
+      <p>Create a stop light that is operated by buttons.</p>
+      <h3>Rules</h3>
+      <ul>
+        <li>Use only HTML, CSS &amp; JavaScript. Do not use jQuery.</li>
+        <li>The event handler must be connected in JavaScript. Do not use <code>onClick=""</code> in HTML</li>
+      </ul>
       <h3>Resources</h3>
       <ul>
         <li>
@@ -23,12 +24,11 @@
       <h3>Instructions</h3>
       <ol class="steps">
         <li>
-          Write a function named <code>changeLight()</code> that takes on parameter which is the color of the light to be turned on.
+          This project has a /images folder which contains one 'on' and one 'off' image for each of the 3 stop light colors. Manipulate the source property of <code><img /></code> elements to switch the state of the 3 light colors.
         </li>
         <li>
-          In the HTML add a click event to each button that calls the <code>changeLight()</code> function passing it the color of the light to turn on.
+          Write a function named <code>changeLight()</code> that takes one parameter which is the color of the light to be turned-on and changes which pictures are displayed sot that the the correct color light is lit and the others are off.
         </li>
-
         <h3>Extra Credit</h3>
         Use a timer to operate the light
       </ol>

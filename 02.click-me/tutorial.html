@@ -7,14 +7,15 @@
 
   <body>
     <div class="tutorial">
-      <h1>Click Me - Coding Challenge</h1>
+      <h1>Using <code>addEventListener()</code></h1>
       <h2>Goal</h2>
       <p>
-        Connect a button to an event and print 'You clicked me' to the screen.
+        Create a button and connect it to an event handler. Clicking the button will write 'You clicked me' to the page.
       </p>
-      <h2>Rules</h2>
+      <h3>Rules</h3>
       <ul>
-        <li>This is a JavaScript lesson so do not use jQuery</li>
+        <li>Use only HTML, CSS &amp; JavaScript. Do not use jQuery.</li>
+        <li>The event handler must be connected in JavaScript. Do not use <code>onClick=""</code> in HTML</li>
       </ul>
       <h2>Resources</h2>
       <ul>
@@ -30,10 +31,10 @@
           Inside of the div with class 'wrapper', create the 'Click Me' button with the bootstrap button classes that will make it green.
         </li>
         <li>
-          Write a function named <code>main()</code> that attaches an event listener to the button. The event listener should call a function named <code>buttonClicked()</code>.
+          Write a function named <code>main()</code> that attaches an event listener to the button. Have the event listener call a function named <code>buttonClicked()</code>.
         </li>
         <li>
-          Write the <code>buttonClicked()</code> function which writes "You clicked me" to the body of the page each time the button is clicked, without overwriting the result of previous clicks.
+          Write the <code>buttonClicked()</code> function to write "You clicked me" to the body of the page each time the button is clicked, without overwriting the result of previous clicks.
         </li>
         <li>
           Make sure your <code>Main()</code> function is called when your script file loads.

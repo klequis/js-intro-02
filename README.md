@@ -16,6 +16,15 @@ You only need to know the very basics of the following
 - Functions
 - console.log()
 
+## Exersize/Starter Projects
+Below are links to the exersize projects
+1. getElementById(): https://thimbleprojects.org/trivalleyschool/322899
+2. addEventListener(): https://thimbleprojects.org/trivalleyschool/322903
+3. Light On/Off: https://thimbleprojects.org/trivalleyschool/322906
+4. Stop Light: https://thimbleprojects.org/trivalleyschool/322907
+
+
+
 ## Project 1 - ````getElementById()````
 Learn to use ````getElementById()```` to color a ````<div>````
 

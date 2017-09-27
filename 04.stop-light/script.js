@@ -11,9 +11,10 @@ function main() {
 
 
 function changeLight(e) {
-  let top = document.getElementById('top')
-  let middle = document.getElementById('middle')
-  let bottm = document.getElementById('bottom')
+  const top = document.getElementById('top')
+  const middle = document.getElementById('middle')
+  const bottm = document.getElementById('bottom')
+  const color = e.target.value
   if (color === 'red') {
     top.src = 'images/red-on.svg'
     middle.src = 'images/yellow-off.svg'
